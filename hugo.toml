@@ -1,0 +1,19 @@
+baseURL = "http://localhost/"
+languageCode = "it"
+title = "Blogtatus"
+theme = "github.com/hugo-sid/hugo-blog-awesome"
+[pagination]
+  pagerSize = 5
+enableEmoji = true
+
+[params]
+  subtitle = "Archivio personale multimediale"
+  enableReadingTime = true
+  enableWordCount = true
+  ShowFullTextinRSS = true
+  useCDN = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
